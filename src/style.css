@@ -1,0 +1,75 @@
+/* @font-face 
+{
+    font-family: 'lulo_cleanoutline_bold';
+    src: url('lulocleanoutlinebold-webfont.woff2') format('woff2'), url('lulocleanoutlinebold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+body
+{
+    
+    background-color: #b078f1;
+    /* background: rgb(204,29,253); */
+    /* background: linear-gradient(180deg, rgba(204,29,253,1) 0%, rgba(255,255,255,1) 100%); */
+    /* background-repeat: no-repeat;  */
+    height: 100%;
+    
+    /* background-size: 100%; */
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
+html {
+    min-height: 100%;
+}
+
+h1
+{
+    font-family: 'lulo_cleanoutline_bold';
+    font-size: 6vw;
+    color: #000;
+    text-align: center;
+}
+
+/* #word
+{
+    font-family: 'lulo_cleanoutline_bold';
+    font-size: 6vw;
+    /*color: white; */
+    /* color: aqua; */
+    /* text-align: center; */
+/* }   */
+
+
+.content
+{
+    text-align: center;
+}
+
+#logo {
+    height: auto;
+    width: auto;
+    display: block;
+}
+
+img
+{
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+}
+
+canvas, img
+{
+    display: none;
+}
